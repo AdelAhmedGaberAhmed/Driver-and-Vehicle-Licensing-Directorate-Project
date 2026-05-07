@@ -32,7 +32,7 @@ namespace DVLD.Business
         public enMode Mode { get; private set; }
 
 
-        // Should auto-update LastStatusDate when status changes ✅
+        // Should auto-update LastStatusDate when status changes 
         private enApplicationStatus _ApplicationStatus;
         public enApplicationStatus ApplicationStatus // New/Cancelled/Completed
         {
@@ -53,7 +53,7 @@ namespace DVLD.Business
             this.PersonID = -1;
             this.ApplicationTypeID = -1;
 
-            // This automatically sets LastStatusDate = DateTime.Now ✅
+            // This automatically sets LastStatusDate = DateTime.Now 
             this.ApplicationStatus = enApplicationStatus.New;
 
             this.CreatedByUserID = -1;
@@ -186,7 +186,7 @@ namespace DVLD.Business
         }
 
 
-        // NO Reason For This Here in this Class 
+       
 
         /* public static bool DoesPersonHaveActiveApplication(int PersonID, int ApplicationTypeID )
          {
