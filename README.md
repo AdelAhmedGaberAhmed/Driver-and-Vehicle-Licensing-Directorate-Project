@@ -1,7 +1,6 @@
-# Driver-and-Vehicle-Licensing-Directorate-Project
-
 
 # DVLD - Driver & Vehicle Licensing Department System
+
 
 ## 📌 Overview
 DVLD is a backend system designed to manage driver and vehicle licensing operations. The system handles processes such as issuing driving licenses, managing driver records, vehicle registration, and license renewals in an efficient and structured way.
