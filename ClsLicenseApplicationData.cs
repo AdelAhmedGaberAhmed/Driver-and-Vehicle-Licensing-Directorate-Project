@@ -92,7 +92,7 @@ namespace DVLD.DataAccess
             {
                 using (SqlConnection conn = new SqlConnection(ClsDataAccessSettings.ConnectionString))
                 {
-                    //-- ✅ Only what you need
+                    
                     string Query = @"
                                     SELECT  LO.LocalDrivingLicenseApplicationID,
                                             LO.ApplicationID,
@@ -143,7 +143,7 @@ namespace DVLD.DataAccess
             {
                 using (SqlConnection conn = new SqlConnection(ClsDataAccessSettings.ConnectionString))
                 {
-                    // ✅ Better — get everything in one shot
+                    
                     string Query = @"
                                     SELECT  LO.LocalDrivingLicenseApplicationID,
                                             LO.ApplicationID,
